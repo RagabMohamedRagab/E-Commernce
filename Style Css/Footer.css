@@ -1,0 +1,54 @@
+/*Start Footer*/
+footer{
+    margin: 50px 0px;
+}
+.Footer_Content{
+    text-align: center;
+}
+.Footer_Content img{
+    margin-bottom: 25px;
+}
+.Footer_Content ul{
+    list-style: none;
+}
+.Footer_Content ul:first-of-type{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.Footer_Content ul li{
+    color:#949494
+}
+.Footer_Content ul:first-of-type li{
+    margin-left: 30px;
+    
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.Footer_Content ul:last-of-type li i{
+  font-size: 1.5rem;
+    border-radius: 30px;color:#949494;
+}
+.Footer_Content ul:last-of-type li i:hover{
+  color:#5fa1d6;
+}
+.Footer_Content ul:first-of-type li:hover{
+    color:#5fa1d6
+}
+.Footer_Content ul:last-of-type{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 40px;
+}
+.Footer_Content ul:last-of-type li{
+    margin-left: 35px;
+}
+.Footer_Content p{
+    color:#949494;
+    margin-top: 45px;}
+/*End Footer*/

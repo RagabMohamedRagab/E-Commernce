@@ -1,0 +1,119 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*
+ start Content
+*/
+.Product_Content {
+    display: flex;
+    justify-content: space-between;
+    margin: 42px 0px 26px 0px;
+}
+
+.Product_Header span {
+    display: block;
+    width: 26%;
+    background-color: #3A8BCD;
+    padding: 6px;
+}
+
+.Product_Header h2 {
+    color: #1E1E1E;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.Product_Types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.Product_Types li {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.Product_Types li:hover {
+    color: #3A8BCD
+}
+
+.Products_Discuss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Products_Discuss li {
+    padding: 10px;
+    border: .9px solid #EEEEEE;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.Products_Discuss li:hover {
+    opacity: 1;
+}
+
+.Products_Discuss li:hover a p {
+    color: #3A8BCD
+}
+
+.Products_Discuss li a {
+    text-decoration: none;
+}
+
+.Products_Discuss li a p,
+.Products_Discuss li a span {
+    color: #1E1E1E;
+    font-weight: bold;
+    margin: 10px 0px 10px 6px;
+}
+
+.Products_Discuss li a span {
+    margin-bottom: 20px;
+    color: #3A8BCD
+}
+
+.Products_Discuss+hr {
+    background-color: #EEEEEE;
+    margin: 20px 0px 10px 0px;
+}
+
+/*End Content
+*/
+/*Start Pagination*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 30px 0px 30px 0px;
+}
+
+.pagination li {
+    margin-left: 25px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+}
+
+.pagination li:first-of-type,
+.pagination li:hover {
+    background-color: #3A8BCD;
+    color: #EEEEEE;
+
+}
+
+
+/*End Pagination**/

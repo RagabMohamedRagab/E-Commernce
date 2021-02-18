@@ -1,0 +1,60 @@
+/*Start Feature*/
+.Header_Feature span {
+    width: 4%;
+    opacity: 1;
+    background-color: #3a8bcd;
+    padding: 6px;
+    display: block;
+  }
+  .Header_Feature h2 {
+    color: #1e1e1e;
+    margin: 10px 0px 10px 0px;
+    text-transform: capitalize;
+  }
+  .Feature {
+    position: relative;
+    margin: 50px 0px;
+  }
+  .Feature ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .Feature ul li {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    padding-bottom: 16px;
+  }
+  .Change_Back:hover p {
+    color: #3a8bcd;
+  }
+  .Feature ul li a {
+    text-decoration: none;
+  }
+  .Feature ul li a p {
+    color: #1e1e1e;
+    margin: 10px 0px 10px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .Feature ul li a span {
+    color: #3a8bcd;
+    text-transform: capitalize;
+  }
+  .Feature ul li a img {
+    width: 210px;
+    height: 200px;
+  }
+  section.Point ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  section.Point ul li {
+    background-color: #3a8bcd;
+    margin-left: 20px;
+    padding: 5px;
+  }
+  /*End Feature*/
+  
